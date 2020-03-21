@@ -1,3 +1,4 @@
+
 def generate_matrix():
     from random import randrange
     matrix_with_y = [[randrange(y_min, y_max) for y in range(m)] for x in range(3)]  # Генеруємо матрицю
